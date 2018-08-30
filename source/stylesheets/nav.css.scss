@@ -6,6 +6,14 @@ nav {
   background-color: white;
   color: #333;
   box-shadow: none;
+
+  border-top: 20px solid transparent;
+
+  -moz-border-image: -moz-linear-gradient(left, #77f9e0 0%, #719de8 50%, #9c48f4 100%); /* FF3.6-15 */
+  -webkit-border-image: -webkit-linear-gradient(left, #77f9e0 0%,#719de8 50%,#9c48f4 100%); /* Chrome10-25,Safari5.1-6 */
+  border-image: linear-gradient(to right, #77f9e0 0%,#719de8 50%,#9c48f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-image-slice: 1;
+
   .brand-logo {
     color: #333;
   }
