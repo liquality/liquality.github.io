@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <% link_to '/', class: 'navbar-brand' do %>
+    <%= image_tag 'images/Asset_4@4x-100.jpg', height: '25' %>
+  <% end %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item <%= nav_active('about') %>">
+        <%= link_to 'About', '/about', class: 'nav-link' %>
+      </li>
+      <li class="nav-item <%= nav_active('faq') %>">
+        <%= link_to 'FAQ', '/faq', class: 'nav-link' %>
+      </li>
+    </ul>
+  </div>
+</nav>
