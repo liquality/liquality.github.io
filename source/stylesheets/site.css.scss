@@ -125,6 +125,11 @@ input[type="text"], textarea {
 .liq-news-sidebar {
   margin-right: 10rem;
   height: 106px;
+
+  @media screen and (max-width: 1160px) and (min-width: 992px) {
+    margin-right: 0rem;
+  }
+
   .input-field {
     float: right;
     margin-right: 24px;
