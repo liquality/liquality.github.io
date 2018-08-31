@@ -4,6 +4,19 @@
 
 .nav-item {
   padding: 0 20px;
+  position: relative;
+  font-family: 'IBMPlexSans-Medium';
+
+  &.active:before {
+    content: url('/images/assets/BulletCirclesSm.png');
+    position: absolute;
+    top: 9px;
+    left: 6px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,0.3);
 }
 
 nav {
