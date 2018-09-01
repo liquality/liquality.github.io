@@ -19,6 +19,15 @@
   color: rgba(0,0,0,0.3);
 }
 
+.navbar-toggler {
+  border: none !important;
+
+  &:focus, &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
 nav {
   background-color: white;
   color: #333;

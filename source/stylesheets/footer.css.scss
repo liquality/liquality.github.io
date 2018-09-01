@@ -3,6 +3,10 @@ footer {
   font-family: 'IBMPlexSans-Light';
   color: #fff;
 
+  @media screen and (max-width: 991px) {
+    padding: 0 30px;
+  }
+
   p {
     font-size: 14px;
     color: #3c4652;
@@ -31,4 +35,17 @@ footer {
       border: none;
     }
   }
+
+  .row {
+    .col {
+      @media screen and (max-width: 991px) {
+        padding-bottom: 30px;
+      }
+    }
+  }
+}
+
+.liq-news-footer {
+  padding: 30px auto 10px;
+  margin: 5px auto 0;
 }

@@ -1,5 +1,9 @@
 .padded {
   padding: 70px;
+
+  @media screen and (max-width: 991px) {
+    padding: 40px;
+  }
 }
 
 .padded-sm {
@@ -24,6 +28,12 @@
 
 .padded-bottom-sm {
   padding-bottom: 30px;
+}
+
+.padded-mobile {
+  @media screen and (max-width: 991px) {
+    padding: 30px !important;
+  }
 }
 
 .padded-side {

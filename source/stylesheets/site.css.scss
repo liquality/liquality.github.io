@@ -74,6 +74,12 @@ input[type="text"], textarea {
 .row {
   .col {
     padding: 0;
+
+    @media screen and (max-width: 991px) {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+    }
   }
 }
 
@@ -130,16 +136,14 @@ input[type="text"], textarea {
     margin-right: 0rem;
   }
 
+  @media screen and (max-width: 991px) {
+    margin-right: 4rem;
+  }
+
   .input-field {
     float: right;
     margin-right: 24px;
   }
-}
-
-.liq-news-footer {
-  width: 500px;
-  padding: 30px auto 10px;
-  margin: 5px auto 0;
 }
 
 .liq-news-input {
@@ -156,6 +160,11 @@ input[type="text"], textarea {
     border-right: none !important;
     border-left: none !important;
     border-bottom: solid 1px #fff !important;
+
+    @media screen and (max-width: 991px) {
+      width: 185px !important;
+    }
+
     &::placeholder {
       color: #fff;
     }
@@ -168,6 +177,10 @@ input[type="text"], textarea {
 
 .liq-padded-left {
   padding: 70px 10px 70px 90px;
+
+  @media screen and (max-width: 991px) {
+    padding: 30px;
+  }
 }
 
 .liq-swap {
@@ -176,6 +189,11 @@ input[type="text"], textarea {
   background-repeat: no-repeat;
   background-position: 100px 35px;
   background-size: 800px;
+
+  @media screen and (max-width: 991px) {
+    min-height:350px !important;
+    background-size: 400px;
+  }
 }
 
 .liq-blue-bg {
@@ -194,6 +212,12 @@ input[type="text"], textarea {
     padding: 0px 20px 80px 0px;
     line-height: 1.6rem;
     color: #a7a8a9;
+  }
+
+  @media screen and (max-width: 991px) {
+    img {
+      width: 200px;
+    }
   }
 }
 
@@ -214,6 +238,12 @@ input[type="text"], textarea {
       font-size: 0.9rem;
     }
   }
+
+  @media screen and (max-width: 991px) {
+    img {
+      width: 200px;
+    }
+  }
 }
 
 .liq-components-links {
@@ -222,4 +252,8 @@ input[type="text"], textarea {
   img {
     padding-right: 30px;
   }
+}
+
+.background-art {
+  background: url('/images/assets/BackgroundArt.png')
 }
