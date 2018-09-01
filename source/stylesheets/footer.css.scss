@@ -16,6 +16,19 @@ footer {
     padding: 0 0 15px;
     color: #eaeaea;
   }
+  a {
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .btn {
+    &:hover {
+      background: none !important;
+    }
+  }
   .input-group {
     border-bottom: 1px solid #fff;
     input {
