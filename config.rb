@@ -10,6 +10,11 @@ activate :gh_pages do |gh_pages|
   gh_pages.branch = 'master'
 end
 
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
