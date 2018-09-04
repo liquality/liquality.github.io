@@ -240,6 +240,18 @@ input[type="text"], textarea {
     }
   }
 
+  @media screen and (min-width: 1200px) {
+    .row {
+      height: 175px !important;
+    }
+  }
+
+  @media screen and (max-width: 1199px) and (min-width: 992px) {
+    .row {
+      height: 175px !important;
+    }
+  }
+
   @media screen and (max-width: 991px) {
     img {
       width: 200px;
