@@ -39,6 +39,7 @@ nav {
   -webkit-border-image: -webkit-linear-gradient(left, #77f9e0 0%,#719de8 50%,#9c48f4 100%); /* Chrome10-25,Safari5.1-6 */
   border-image: linear-gradient(to right, #77f9e0 0%,#719de8 50%,#9c48f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-image-slice: 1;
+  border-image-width: 20px 0 0 0 !important;
 
   .brand-logo {
     color: #333;
