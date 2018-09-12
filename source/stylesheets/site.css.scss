@@ -61,6 +61,10 @@ input[type="text"], textarea {
   padding: 10px 0 5px;
   margin-bottom: 0 !important;
   line-height: 0.65rem;
+  a {
+    color: #af84f4;
+    text-decoration: underline;
+  }
 }
 
 .brand-logo {
