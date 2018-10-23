@@ -13,9 +13,14 @@
     <div class="row padded-above">
       <div class="col">
         <% link_to 'https://github.com/liquality' do %>
-          <%= image_tag '/images/assets/github-logo-white.png', class: 'padded-right', width: '100' %>
+          <%= image_tag '/images/assets/github-logo-white.png', class: 'padded-right', width: '110' %>
         <% end %>
-        <a href="https://medium.com/liquality"><img src="/images/assets/icon-medium.png" width="35"></a>
+        <% link_to 'https://medium.com/liquality' do %>
+          <%= image_tag '/images/assets/icon-medium.png', class: 'padded-right', width: '80' %>
+        <% end %>
+        <% link_to 'https://web.telegram.org/#/im?p=@liquality' do %>
+          <%= image_tag '/images/assets/icon-telegram.png', class: 'padded-right', width: '65' %>
+        <% end %>
       </div>
       <div class="col-md-2">
         <h6><%= link_to 'About', '/about/' %></h6>
@@ -23,7 +28,7 @@
         <h6><%= link_to 'FAQ', '/faq/' %></h6>
       </div>
       <!-- <div class="col-md-2"> -->
-        <!-- <%= link_to 'Coinponents', 'https://github.com/liquality' %> -->
+        <!-- <%= link_to 'Chain Abstraction Layer', 'https://github.com/liquality' %> -->
         <!-- <h6>Legal Terms</h6> -->
       <!-- </div> -->
       <div class="col-md-5">
