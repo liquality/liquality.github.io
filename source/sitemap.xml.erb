@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <% pages.each do |p| %>
   <url>
-    <loc>https://liquality.io/<%=p.destination_path.gsub(/\/?index.html/,'')%></loc>
+    <loc>https://liquality.io/<%=p.destination_path.gsub(/index.html/,'')%></loc>
     <priority><%=p.data.priority or '0.7'%></priority>
   </url>
 <% end %>
