@@ -6,8 +6,6 @@ branches:
 cache: bundler
 before_install:
   - nvm install node
-install:
-  - bin/setup
 script:
   - bundle exec middleman build
 deploy:
