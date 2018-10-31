@@ -26,6 +26,6 @@ deploy:
       branch: master
   - provider: script
     skip_cleanup: true
-    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build $LIQUALITY_USER@$LIQUALITY_HOST:/var/www/html/io/liquality/
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build/ $LIQUALITY_USER@$LIQUALITY_HOST:/var/www/html/io/liquality/
     on:
       branch: master
