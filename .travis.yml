@@ -1,5 +1,6 @@
 addons:
-  ssh_known_hosts: "$LIQUALITY_HOST"
+  ssh_known_hosts:
+    - liquality.io
 rvm:
   - 2.3.1
 branches:
