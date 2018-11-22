@@ -200,23 +200,6 @@ input[type="text"], textarea {
   @media screen and (max-width: 991px) {
     min-height:350px !important;
     background-size: 400px;
-
-    button {
-      top: 300px !important;
-      left: 130px !important;
-    }
-  }
-
-  button {
-    position: relative;
-    top: 548px;
-    left: 326px;
-    background: #9157f1;
-    color: white;
-    padding: 0 6.4rem;
-    &:hover {
-      background: #874fe5;
-    }
   }
 }
 
