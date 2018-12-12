@@ -18,6 +18,15 @@ h5 {
 p {
   padding: 10px 0;
   line-height: 1.8rem;
+
+  &.c9 {
+    line-height: 0.5rem;
+    padding: 3px 0;
+  }
+  &.c6 {
+    line-height: 0.5rem;
+    padding: 3px 0;
+  }
 }
 
 strong {
@@ -298,4 +307,8 @@ input[type="text"], textarea {
 
 .background-art {
   background: url('/images/assets/background-art.png')
+}
+
+td.c19 {
+  width: 50%;
 }
