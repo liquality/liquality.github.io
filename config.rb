@@ -18,6 +18,8 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+page '/*', data: { showHeader: true, showFooter: true }
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
