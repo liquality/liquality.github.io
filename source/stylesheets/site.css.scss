@@ -158,11 +158,21 @@ input[type="text"], textarea {
 
 .liq-news-sidebar {
   position: relative;
+  color: #fff;
+}
+
+.liq-news-sidebar p {
+  padding: 0;
 }
 
 .liq-news-input {
   width: 100%;
   text-align: center;
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 
   .input {
     background: none !important;
