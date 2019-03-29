@@ -68,6 +68,16 @@ input[type="text"], textarea {
   background-color: #fbfbfb;
 }
 
+.heading {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .title {
   color: #af84f4;
   text-transform: uppercase;
@@ -121,14 +131,14 @@ input[type="text"], textarea {
 
 .ico-badge {
   position: absolute;
-  top: -85px;
-  right: -85px;
+  top: -50px;
+  right: 10px;
   width: 100px;
   height: 100px;
 }
 
 .margin-top {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .light {
@@ -147,25 +157,12 @@ input[type="text"], textarea {
 }
 
 .liq-news-sidebar {
-  margin-right: 10rem;
-  height: 106px;
-
-  @media screen and (max-width: 1160px) and (min-width: 992px) {
-    margin-right: 0rem;
-  }
-
-  @media screen and (max-width: 991px) {
-    margin-right: 4rem;
-  }
-
-  .input-field {
-    float: right;
-    margin-right: 24px;
-  }
+  position: relative;
 }
 
 .liq-news-input {
-  position: relative;
+  width: 100%;
+  text-align: center;
 
   .input {
     background: none !important;
@@ -207,12 +204,13 @@ input[type="text"], textarea {
   min-height: 675px !important;
   background-image: url("../images/laptop_mvp.png");
   background-repeat: no-repeat;
-  background-position: 100px 35px;
-  background-size: 800px;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: -100px;
+  margin-top: 20px;
 
   @media screen and (max-width: 991px) {
-    min-height:350px !important;
-    background-size: 400px;
+    min-height: 450px !important;
 
     a {
       top: 300px !important;
