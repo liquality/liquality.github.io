@@ -13,6 +13,8 @@ before_install:
   - chmod 600 /tmp/deploy_rsa
   - ssh-add /tmp/deploy_rsa
   - nvm install node
+  - gem install bundler
+  - bundle update
 script:
   - bundle exec middleman build
 deploy:
