@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://liquality.io/about/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liquality.io/faq/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liquality.io/privacy-policy/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liquality.io/</loc>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://liquality.io/terms-of-use/standalone.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liquality.io/terms-of-use/</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://liquality.io/sitemap.xml
